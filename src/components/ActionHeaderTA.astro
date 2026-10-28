@@ -1,0 +1,5 @@
+---
+interface Props {number:string;eyebrow:string;title:string;id?:string;}
+const {number,eyebrow,title,id}=Astro.props;
+---
+<header class="action-header"><p class="eyebrow"><span>{number}</span>{eyebrow}</p><h2 id={id}>{title}</h2><slot/></header>

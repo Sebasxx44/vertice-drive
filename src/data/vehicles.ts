@@ -1,0 +1,36 @@
+import type { Vehicle } from "@/types";
+export const vehicles: Vehicle[] = [
+  {
+    id: "berlina",
+    category: "urbano",
+    name: "Berlina Ejecutiva",
+    subtitle: "La ciudad, a otro ritmo.",
+    image: "berlina",
+    alt: "Porsche Panamera negro circulando por una carretera",
+    seats: 4,
+    luggage: 2,
+    label: "PARA CAMBIAR DE AIRES",
+  },
+  {
+    id: "suv",
+    category: "suv",
+    name: "SUV Horizonte",
+    subtitle: "Donde termina la rutina.",
+    image: "suv",
+    alt: "SUV blanco estacionado frente a un paisaje montañoso",
+    seats: 5,
+    luggage: 3,
+    label: "PARA ABRIR EL MAPA",
+  },
+  {
+    id: "coupe",
+    category: "deportivo",
+    name: "Coupé Gran Turismo",
+    subtitle: "El trayecto también es el destino.",
+    image: "coupe",
+    alt: "Deportivo blanco en un garaje de automóviles",
+    seats: 2,
+    luggage: 1,
+    label: "PARA TOMAR EL DESVÍO",
+  },
+];
